@@ -54,7 +54,7 @@ public class Main implements ClientModInitializer {
                 MOD_ID + ".key_bind.open_screen",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_J,
-                KeyBinding.Category.INVENTORY
+                KeyBinding.Category.MISC
         ));
 
         ClientTickEvents.START_CLIENT_TICK.register(new ClientTickEvents.StartTick() {
